@@ -1,4 +1,4 @@
-# Maze Escape - CTF Challenge Writeup
+# GOREY - CTF Challenge Writeup
 
 **Challenge Name:** GOREY
 **CTF:** TrustCTF  

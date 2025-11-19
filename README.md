@@ -13,10 +13,10 @@ Solutions and detailed writeups for challenges solved during **TrustCTF 2025** (
 - **[GOREY](./GOREY.md)** — Go binary maze solver with non-standard movement (±2 steps)
 
 ### API Security
-- **Secure API** — *(Writeup pending)*
+- **[Secure API](./Secure_API.md)** — *(Writeup template ready - add your solution)*
 
 ### Data Privacy
-- **Breached** — *(Writeup pending)*
+- **[Breached](./Breached.md)** — *(Writeup template ready - add your solution)*
 
 ---
 

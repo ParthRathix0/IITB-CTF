@@ -1,9 +1,8 @@
 # IITB_CTF
-Repo for all the challendges we solved at tlctf_2025
+Repo for all the challenges solved at tlctf_2025
 
 ## challendges
-- [NOOb Randomness](./GOREY.md) (cryptography)
+- NOOb Randomness (cryptography)
 - Secure API (API Security)
-- Geory (Reverse Engineering)
+- [Geory](./GOREY.md) (Reverse Engineering)
 - Breached (Data privacy)
-

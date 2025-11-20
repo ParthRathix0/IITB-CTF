@@ -143,10 +143,28 @@ cd noob_crypto
 python3 solve.py
 ```
 
+**Output:**
+```
+A = 73
+C = 151
+SEED = 145
+FLAG = trustctf{y0u_d0nt_3v3n_n33d_2_b_sm4rt_4_th15}
+```
+
+---
 
 ## Results
 
-Using the supplied `output.txt` constants and the `solve.py` script, the A, C, and seed can be recovered and the flag extracted. The supplied `solve.py` prints the final `FLAG` when run with the bundled hex strings.
+**Recovered Parameters:**
+- **A** = 73  
+- **C** = 151  
+- **SEED** = 145  
+
+**Flag:** `trustctf{y0u_d0nt_3v3n_n33d_2_b_sm4rt_4_th15}`
+
+Using the supplied `output.txt` constants and the `solve.py` script, the LCG parameters (A, C, seed) were successfully recovered through the known-plaintext attack. The keystream was regenerated and XORed with `ct3` to extract the flag.
+
+The linear recurrence `s = (73 × s + 151) mod 256` with initial seed 145 produces the exact keystream used to mask all three messages, confirming the attack's validity.
 
 ---
 
